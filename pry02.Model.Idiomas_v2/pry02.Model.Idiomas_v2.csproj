@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entidad\PlanEstudio\model_Curso.cs" />
+    <Compile Remove="Entidad\PlanEstudio\model_TipoCurso_AI.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pry100.Utilitario.Idiomas_v2\pry100.Utilitario.Idiomas_v2.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="controller_CURSO.cs" />
+    <Compile Remove="controller_TipoCurso_AI.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pry01.Data.Idiomas_v2\pry01.Data.Idiomas_v2.csproj" />
+  </ItemGroup>
+
+</Project>
